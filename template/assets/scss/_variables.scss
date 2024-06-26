@@ -118,8 +118,8 @@ $spacers: (
 
 $enable-caret:                true;
 $enable-rounded:              true;
-$enable-shadows:              false;
-$enable-gradients:            false;
+$enable-shadows:              true;
+$enable-gradients:            true;
 $enable-transitions:          true;
 $enable-reduced-motion:       true;
 $enable-smooth-scroll:        true;
@@ -133,7 +133,7 @@ $enable-important-utilities:  true;
 
 // Body
 
-$body-bg:                   $white;
+$body-bg:                   $gray-800;
 $body-color:                $gray-500;
 
 // scss-docs-start utilities-colors
