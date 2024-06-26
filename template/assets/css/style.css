@@ -18966,7 +18966,7 @@ img.img-grayscale {
   font-size: 0.875rem;
   font-weight: 500;
   text-transform: capitalize;
-  line-height: 90px;
+  line-height: 120px;
   padding-top: 0;
   padding-bottom: 0;
 }
@@ -19099,7 +19099,7 @@ header.navbar-sticky-on .navbar-brand .navbar-brand-item {
   padding-bottom: 30px;
 }
 .navbar-brand .navbar-brand-item {
-  height: 30px;
+  height: 60px;
   display: block;
   width: auto;
 }
