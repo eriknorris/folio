@@ -7,22 +7,17 @@
 
 
 
-$primary:     #001DC6;
-
-
-
-
-// Body
-
-
+$primary:           #001DC6;
 $body-bg:           #19191c;
+
+
 
 
 
  $theme-colors: ();
  $theme-colors: map-merge(
    (
-     "primary":    $primary,
+       "primary":    $primary,
        "secondary":  $secondary,
        "success":    $success,
        "info":       $info,
@@ -33,6 +28,7 @@ $body-bg:           #19191c;
      ),
      $theme-colors
    );
+
 
    $link-color:                        $primary;
    $link-hover-color:                  shift-color($link-color, $link-shade-percentage);
