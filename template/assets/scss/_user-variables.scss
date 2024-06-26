@@ -7,9 +7,25 @@
 
 
 
-$primary:           #001DC6;
-$body-bg:           #19191c;
+$primary:            #001DC6;
+$body-bg:            #19191c;
+$dropdown-bg:        rgba(255, 255, 255, 0.4);
 
+$dropdown-link-color:               $black;
+$dropdown-link-hover-color:         shade-color($gray-600, 10%);
+$dropdown-link-hover-bg:            $gray-400;
+
+
+$dropdown-link-disabled-color:      $gray-800;
+
+
+$navbar-brand-height:               80px; //Logo height
+$navbar-brand-padding-y:            30px;
+$nav-link-line-height:              $navbar-brand-padding-y * 1 + $navbar-brand-height;
+
+
+$enable-shadows:             true;
+$enable-gradients:           true;
 
 
 
