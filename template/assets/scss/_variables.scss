@@ -55,7 +55,7 @@ $colors: (
   "black":      $black
 );
 
-$primary:     #ea110c; // Change theme primary color here
+$primary:     blue; // Change theme primary color here
 $secondary:   $gray-400;
 $success:     $green;
 $info:        $cyan;
@@ -263,7 +263,7 @@ $headings-margin-bottom:        .5rem;
 $headings-font-family:          $font-family-heading;
 $headings-font-weight:          $font-weight-bold;
 $headings-line-height:          1.4;
-$headings-color:                var(--#{$prefix}gray-800);
+$headings-color:                var(--#{$prefix}gray-200);
 
 // display headings
 $display-font-sizes: (
@@ -475,9 +475,9 @@ $navbar-nav-link-font-size:         $font-size-base;
 $navbar-nav-link-font-weight:       $font-weight-normal;
 $navbar-nav-link-text-transform:    capitalize;
 
-$navbar-brand-height:               30px; //Logo height
+$navbar-brand-height:               80px; //Logo height
 $navbar-brand-padding-y:            30px;
-$nav-link-line-height:              $navbar-brand-padding-y * 2 + $navbar-brand-height;
+$nav-link-line-height:              $navbar-brand-padding-y * 1 + $navbar-brand-height;
 
 $sticky-navbar-brand-height:        22px; //sticky Logo height
 $sticky-navbar-brand-padding-y:     14px;

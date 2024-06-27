@@ -1,5 +1,5 @@
 /**
-* Erik Norris' Portfolio
+* Folio - Creative Agency Portfolio Theme
 *
 * @author Webestica (https://www.webestica.com/)
 * @version 1.0.0

@@ -52,7 +52,7 @@ a.text-dark-stroke:hover {
 .text-light-stroke {
   color: transparent !important;
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: var(--#{$prefix}gray-300);
+  -webkit-text-stroke-color: var(--#{$prefix}gray-500);
   transition: $transition-base;
 }
 
@@ -84,7 +84,7 @@ a.text-light-stroke:hover {
 }
 
 .text-light-shadow{
-  text-shadow: 0.03em 0.03em 0 $gray-300;
+  text-shadow: 0.03em 0.03em 0 $gray-700;
 }
 
 //
