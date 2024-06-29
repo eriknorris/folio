@@ -103,7 +103,7 @@ section {
   outline: none !important;
 }
 
-// Highlight Color
+// Highlight Color 
 ::selection {
   color: var(--#{$prefix}white);
   background: var(--#{$prefix}primary);
